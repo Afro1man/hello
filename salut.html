@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
-        <title>Salut</title>
+        <title>Djamik Market</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <style>
+      body{
+                text-align: center;
+                background:linear-gradient(45deg,#605a44,#f1f1ef);
+                background-image:url(https://images.ctfassets.net/h67z7i6sbjau/3jDCsu0hAcu1sCCOOpj9NS/3117d4de4545e209334d9ecaecfcf6d2/Blog-UK_The-luxury-audience-on-Pinterest-Header-1216x684px_2x.jpg?fm=webp&q=85);
+            }  
+        button{
+            background:linear-gradient(45deg,#D4AF37,#ac8402);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            width: 100;
+            padding: 20px 50px;
+            height: auto;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(196, 153, 10, 0.5);
+             }
+        .PP{
+            font-size: 90px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(99, 13, 93);
+            text-align: center;
+            padding: 35px;
+            box-shadow:none;
+            height:auto;
+            animation: defilement-gauche 10s linear infinite;
+        }
+        @keyframes defilement-gauche{
+            0%{
+                transform: (100%);
+            }
+            100%{
+                transform: translate(-100%);
+            }
+        }
+        .AA{
+            font-size:90px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgba(255, 238, 0, 0.372);
+        }
+        </style>
     </head>
     <body>
-        salut, tout le monde!
+        <p class="AA">DJAMIK <br>MARKET</p>
+       <div class="PP">
+        Welcom to Djamik Market!<br></div>
+        <button >Se connecté</button>
+        <button>S'inscrire</button>
     </body>
 </html>
